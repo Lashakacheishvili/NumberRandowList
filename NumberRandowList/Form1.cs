@@ -29,7 +29,7 @@ namespace NumberRandowList
             int dupl = 0;
             if (txt.Length<12)
             {
-                MessageBox.Show("კომბინაციისთვის აუცილებელია 12 რიცხვი იყოს შეტანილი!");
+                MessageBox.Show("კომბინაციისთვის აუცილებელია 12 რიცხვი იყოს შეტანილი!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
