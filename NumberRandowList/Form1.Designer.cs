@@ -75,12 +75,14 @@
             // 
             this.Column2.HeaderText = "№";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column1.HeaderText = "კომბინაცია";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // Form1
             // 
@@ -95,7 +97,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "რიცხვების გენერატორი";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
